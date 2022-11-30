@@ -25,7 +25,7 @@ function  multiplicacion(a, b) {
 }
 
 test('multiplicacion of 2 numbers', t => {
-  t.is(multiplicacion(1, 2), 2);
+  t.is(multiplicacion(5, 2), 10);
 })
 
 //TODO test division
@@ -45,5 +45,5 @@ function  resta(a, b) {
 }
 
 test('resta of 2 numbers', t => {
-  t.is(resta(4, 2), 2);
+  t.is(resta(14, 2), 12);
 })
